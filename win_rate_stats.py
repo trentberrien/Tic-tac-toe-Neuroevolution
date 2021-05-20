@@ -54,19 +54,19 @@ def play_game(p1, p2, gen):
             gameBoard[int(movey)-1,int(movex)-1]=player
             game_inputAbs = np.reshape(gameBoard, 9)
         #else:
-            #print('a tie, serus?')
+            #print('a tie')
             
     for i in range(5):
         make_move_p(1, p1)
         #print(gameBoard)
         if win_check(gameBoard) == True:
-            #print('p1 wins lol')
+            #print('p1 wins')
             return(1)
             break
         make_move_p(-1, p2)
         #print(gameBoard)
         if win_check(gameBoard) == True:
-            #print('p2 wins lol')
+            #print('p2 wins')
             return(-1)
             break
     if win_check(gameBoard) == False:
