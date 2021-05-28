@@ -1,7 +1,9 @@
 # Tic-tac-toe-Neuroevolution
 
-to run the model use main.py
+**An updated version with a propper description is soon to come**
 
-the current code is set up to run the network vs random player
+To run the model use main.py
 
-an updated version with a propper description is soon to come
+The current code is set up to run the network vs random player
+
+A presentation and report on this project can be found in this repository
